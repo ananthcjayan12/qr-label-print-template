@@ -17,6 +17,7 @@ This base is designed to be used with human engineers or AI coding agents (GitHu
 - `print-server/` — local print bridge.
 - `.github/workflows/` — CI/CD workflows.
 - `TEMPLATE_PLAYBOOK.md` — implementation process and quality gate for all future features.
+- `TEMPLATE_USAGE_AND_DEV_CYCLE.md` — how to use this template, customize a project, and run the delivery cycle.
 - `.github/copilot-instructions.md` — coding rules for AI agents.
 
 ## Quick start
@@ -56,6 +57,8 @@ Use this format when assigning work:
 5. **Out-of-scope**: what must not change.
 
 Then require implementation to follow `TEMPLATE_PLAYBOOK.md`.
+
+Use `FEATURE_PROMPT_TEMPLATE.md` as the default request format in issues/PR descriptions.
 
 ## Rename for your org/product
 
