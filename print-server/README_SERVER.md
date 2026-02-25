@@ -5,7 +5,10 @@ This server is the local companion for the QR Template frontend. It generates QR
 ## Installation
 
 1.  **Install Python**: Ensure you have Python 3.8+ installed.
-2.  **Run the Server**:
+2.  **Install dependencies**:
+    *   `pip install -r requirements_server.txt`
+    *   Use the exact file name (`requirements_server.txt` or `requirements.txt`), not `requirements`.
+3.  **Run the Server**:
     *   **Mac/Linux**: Open Terminal, navigate to this folder, and run `./run_server.sh`
     *   **Windows**: Open PowerShell, navigate to this folder, and run `python app.py` (ensure you install requirements first: `pip install -r requirements_server.txt`)
 
